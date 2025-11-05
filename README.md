@@ -17,11 +17,6 @@ description: GPT-RAG core is a Retrieval-Augmented Generation pattern running in
 -->
 # GPT-RAG Orchestrator
 
-Part of the [GPT-RAG](https://github.com/Azure/gpt-rag) solution.
-
-The **GPT-RAG Orchestrator** service is an agentic orchestration layer built on Azure AI Foundry Agent Service and the Semantic Kernel framework. It enables agent-based RAG workflows by coordinating multiple specialized agents—each with a defined role—to collaboratively generate accurate, context-aware responses for complex user queries.
-
-
 ### How the Orchestrator Works
 
 The orchestrator uses Azure AI Foundry Agent Service for single-agent and connected-agent flows, leveraging its managed runtime for agent lifecycle, state, and tool orchestration. For multi-agent scenarios, it integrates the Semantic Kernel Agent Framework to compose and coordinate specialized agents collaborating on tasks. Custom agent strategies allow developers to plug domain-specific logic without modifying core orchestration code.
