@@ -11,7 +11,7 @@ For more details, refer to:
 * [Azure AI Projects Evaluation Documentation](https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/develop/cloud-evaluation).
 * [Azure AI Projects Evaluation Python SDK](https://github.com/Azure/azure-sdk-for-python/blob/main/sdk/ai/azure-ai-projects/README.md#evaluation).
 
-## How It Works
+## How It Works?
 
 The evaluation workflow is composed of several steps that prepare data, submit it to Azure AI Projects, and analyze results. First, a dataset of queries and ground truth is generated or provided. This dataset is uploaded to Azure AI Projects, creating a new version for the evaluation run. Next, a set of evaluators is configured, each targeting a specific quality or safety aspect of the responses. Finally, the evaluation is submitted to the service, where Azure processes the data and returns a structured report with scores and insights.
 
