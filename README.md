@@ -15,12 +15,8 @@ urlFragment: GPT-RAG
 name: Multi-repo ChatGPT and Enterprise data with Azure OpenAI and AI Search
 description: GPT-RAG core is a Retrieval-Augmented Generation pattern running in Azure, using Azure AI Search for retrieval and Azure OpenAI large language models to power ChatGPT-style and Q&A experiences.
 -->
-# GPT-RAG Orchestrator
 
-Part of the [GPT-RAG](https://github.com/Azure/gpt-rag) solution.
-
-The **GPT-RAG Orchestrator** service is an agentic orchestration layer built on Azure AI Foundry Agent Service and the Semantic Kernel framework. It enables agent-based RAG workflows by coordinating multiple specialized agents—each with a defined role—to collaboratively generate accurate, context-aware responses for complex user queries.
-
+# My Orchestrator
 
 ### How the Orchestrator Works
 
